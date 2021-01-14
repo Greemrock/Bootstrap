@@ -9,3 +9,10 @@
     font-weight: 300;
     font-size: 72px;
 }
+.jumbotron .btn {
+    font-size: 20px;
+    padding: 12px 20px;
+}
+footer {
+    background: #F5F5F5;
+}
