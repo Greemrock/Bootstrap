@@ -1,0 +1,11 @@
+.navbar {
+    background-color: #343A40;
+}
+.navbar-logo {
+    font-size: 20px;
+    color: #fff;
+    padding-right: 8px;
+}
+.nav-link {
+    color: #fff;
+}
