@@ -11,32 +11,35 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar justify-content-start text-white">
-        <a class="navbar-logo text-white" href="">НЛК</a>
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#port">Портфолио</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#reit">Рейтинг</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#help">Помощь</a>
-            </li>
-        </ul>
+    <!-- MENU   -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">НЛК</a>
+        <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link " href="#port">Портфолио</a>
+                <a class="nav-link" href="#reit">Рейтинг</a>
+                <a class="nav-link" href="#help">Помощь</a>
+            </div>
+        </div>
     </nav>
-    <section class="jumbotron">
+    <!--   PORTFOLIO    -->
+    <header class="jumbotron">
         <div class="container">
-            <h1>Портфолио</h1>
+            <h1 class="display-3">Портфолио</h1>
             <p>Это место, где собраны ваши научные публикации. Здесь вы можете добавлять свои научные работы, получать информацию об их уникальности и смотреть отзывы ваших научных руководителей.</p>
-            <button class="btn btn-primary">Добавить работу</button>
+            <button class="btn btn-primary px-3 py-2">Добавить работу</button>
         </div>
         
-    </section>
-    <section class="container">
-            <div class="card-deck ">
+    </header>
+    <!--   MAIN    -->
+    <main class="container">
+            <div class="card-deck">
                 <div class="px-0 col-xl-5 col-md-7">
-                    <div class="card">
+                    <div class="card mb-4">
                         <div class="card-header">
                             <h6 class="my-0 font-weight-normal">Ваш профиль</h6>
                         </div>
@@ -51,7 +54,7 @@
                     </div>
                 </div>
                 <div class="px-0 col-xl-4 col-md-5">
-                    <div class="card">
+                    <div class="card mb-4">
                         <div class="card-header">
                             <h6 class="my-0 font-weight-normal">Статистика</h6>
                         </div>
@@ -67,13 +70,13 @@
                 </div>
                 
             </div>
-        <div class="table">
-            <table>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover mt-4">
                 <tr>
-                    <th>Название работы</th>
-                    <th>Дата загрузки</th>
-                    <th>Научный руководитель</th>
-                    <th>Уникальность</th>
+                    <th class="align-middle">Название работы</th>
+                    <th class="align-middle">Дата загрузки</th>
+                    <th class="align-middle">Научный руководитель</th>
+                    <th class="align-middle">Уникальность</th>
                 </tr>
                 <tr>
                     <td>Привлечение инвестиций как фактор развития экономики</td>
@@ -138,10 +141,10 @@
                 </tr>
             </table>
         </div>
-    </section>
-    
-    <footer class="p-3 text-left">
-        <div class="pl-4">© Научный личный кабинет. Все права защищены</div>
+    </main>
+    <!--   FOOTER    -->
+    <footer class="p-3 text-left bg-dark">
+        <div class="text-white">© Научный личный кабинет. Все права защищены</div>
     </footer>
 </body>
 </html>
